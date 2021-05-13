@@ -2,6 +2,7 @@
 
 import boto3
 
+
 print('List all S3 buckets in your AWS account using resources:')
 s3 = boto3.resource('s3')
 for bucket in s3.buckets.all():
