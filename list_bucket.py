@@ -2,9 +2,10 @@
 
 import boto3
 
+print('List all S3 buckets in your AWS account')
 s3 = boto3.resource('s3')
 for bucket in s3.buckets.all():
-    print(bucket.name)
+    print(f'  {bucket.name}')
 
 # # Upload a file to a bucket
 # s3 = boto3.resource('s3')
