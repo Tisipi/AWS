@@ -1,1 +1,1 @@
-AWS boto3 SDK examples
+AWS boto3 SDK examples.
